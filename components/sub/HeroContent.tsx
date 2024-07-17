@@ -23,7 +23,7 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-xl">
+          <h1 className="Welcome-text text-[14px]">
             Mern Stack Developement Student
           </h1>
         </motion.div>
@@ -46,7 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-xl text-gray-400 my-5 max-w-[600px]"
         >
-          {/* <span className="text-6xl  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">Hi, I'm Ashish Yadav </span> */}
+          <span className="text-[30px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">Hi, I'm Ashish Yadav|| </span>
           As a dedicated MERN stack development student, I am passionate about creating robust web applications using MongoDB, Express.js, React.js, and Node.js. With a focus on clean, efficient code and innovative solutions, I strive to deliver high-quality, user-friendly digital experiences that meet modern web development standards.
         </motion.p>
         
