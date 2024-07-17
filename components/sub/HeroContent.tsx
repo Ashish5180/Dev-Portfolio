@@ -46,7 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-xl text-gray-400 my-5 max-w-[600px]"
         >
-          <span className="text-6xl  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">Hi, I'm Ashish Yadav </span>
+          {/* <span className="text-6xl  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">Hi, I'm Ashish Yadav </span> */}
           As a dedicated MERN stack development student, I am passionate about creating robust web applications using MongoDB, Express.js, React.js, and Node.js. With a focus on clean, efficient code and innovative solutions, I strive to deliver high-quality, user-friendly digital experiences that meet modern web development standards.
         </motion.p>
         
