@@ -8,6 +8,10 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleMenuClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-4 md:px-10">
       <div className="w-full h-full flex items-center justify-between m-auto px-4 md:px-10">
@@ -22,21 +26,21 @@ const Navbar: React.FC = () => {
         </a>
 
         <div className="hidden md:flex items-center space-x-4">
-          <a href="#about-me" className="cursor-pointer text-gray-200 hover:text-white">
+          <a href="#about-me" className="cursor-pointer text-xl text-gray-200 hover:text-white">
             About me
           </a>
-          <a href="#skills" className="cursor-pointer text-gray-200 hover:text-white">
+          <a href="#skills" className="cursor-pointer text-xl text-gray-200 hover:text-white">
             Skills
           </a>
-          <a href="#experience" className="cursor-pointer text-gray-200 hover:text-white">
+          <a href="#experience" className="cursor-pointer text-xl text-gray-200 hover:text-white">
             Education
           </a>
-          <a href="#projects" className="cursor-pointer text-gray-200 hover:text-white">
+          <a href="#projects" className="cursor-pointer text-xl text-gray-200 hover:text-white">
             Projects
           </a>
         </div>
 
-        <div className="hidden md:flex flex-row gap-5">
+        {/* <div className="hidden md:flex flex-row gap-5">
           {Socials.map((social) => (
             <Image
               src={social.src}
@@ -47,7 +51,7 @@ const Navbar: React.FC = () => {
               className="cursor-pointer"
             />
           ))}
-        </div>
+        </div> */}
 
         <div className="md:hidden flex items-center">
           <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
@@ -61,17 +65,17 @@ const Navbar: React.FC = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden w-full h-screen bg-[#030014] px-4 py-4 flex flex-col items-start space-y-4">
-          <a href="#about-me" className="block text-gray-200 py-2 italic font-bold hover:text-white">
+        <div className="md:hidden w-full h-[400px] bg-[#030014] px-4 py-4 flex flex-col items-start space-y-4 opacity-75">
+          <a href="#about-me" className="block text-gray-200 py-2 italic font-bold hover:text-white" onClick={handleMenuClick}>
             About me
           </a>
-          <a href="#skills" className="block text-gray-200 py-2 italic font-bold hover:text-white">
+          <a href="#skills" className="block text-gray-200 py-2 italic font-bold hover:text-white" onClick={handleMenuClick}>
             Skills
           </a>
-          <a href="#experience" className="block text-gray-200 py-2 italic font-bold hover:text-white">
+          <a href="#experience" className="block text-gray-200 py-2 italic font-bold hover:text-white" onClick={handleMenuClick}>
             Education
           </a>
-          <a href="#projects" className="block text-gray-200 py-2 italic font-bold hover:text-white">
+          <a href="#projects" className="block text-gray-200 py-2 italic font-bold hover:text-white" onClick={handleMenuClick}>
             Projects
           </a>
         </div>

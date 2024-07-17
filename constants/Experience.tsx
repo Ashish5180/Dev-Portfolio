@@ -6,43 +6,34 @@ const arobase = '/docker.webp';
 
   export const experiencesData = [
     {
-      title: "Graduated bootcamp",  
-      location: "Miami, FL",
+      title: "Pursuing Graduation",  
+      location: "KR Mangalam University,Gurgaon, Haryana",
       description:
-        "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+        "1year Cgpa - 8",
       // icon: React.createElement('img', { src: arobase, alt: 'Votre alt' }),
-      date: "2019",
+      date: "2023-27",
     },
     {
-      title: "Front-End Developer",
-      location: "Orlando, FL",
+      title: "2 Summer Intenship at Coding raja technology",
+      location: "Gurgaon",
       description:
-        "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-        icon: React.createElement('img', { src: arobase, alt: 'Votre alt' }),
-      date: "2019 - 2021",
+        "In my summer vacation i have done summer internship in fullstck developement.I have created a blog website with react js and firebase,firestone",
+      date: " July-August 2024",
     },
     {
-      title: "Full-Stack Developer",
-      location: "Houston, TX",
+      title: "Hands on project with Xebia Technologies",
+      location: "Gurgaon",
       description:
-        "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement('img', { src: arobase, alt: 'Votre alt' }),
-      date: "2021 - present",
+        "I have done hands on project with xebia technologies using node js",
+      date: "August 2024",
     },
     {
-      title: "Full-Stack Developer",
-      location: "Houston, TX",
+      title: "AWS Cloud Practitioner",
+      location: "Online at internshala.com",
       description:
-        "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement('img', { src: arobase, alt: 'Votre alt' }),
-      date: "2021 - present",
+        "I have done AWS Beginner course at internshala",
+      date: " June 2024",
     },
-    {
-      title: "Full-Stack Developer",
-      location: "Houston, TX",
-      description:
-        "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement('img', { src: arobase, alt: 'Votre alt' }),
-      date: "2021 - present",
-    },
+    
+    
   ] as const;
