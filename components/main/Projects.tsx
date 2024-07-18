@@ -12,7 +12,7 @@ const Projects = () => {
           src="/bg3.png"
           title="Fitness Website(Advance Project)"
           description="Technologies used: React js, Redux Toolkit, Tailwind CSS, Component land, Firebase Authentication, Fitness API
-Functionality: User can perform CRUD Operation on the blog section, add items to cart , Protected Routing,User data saves to firebase , API perform operations like:Fetch nutrition data, exercise dataTechnologies "
+Functionality: User can perform CRUD Operation on the blog section, add items to cart , Protected Routing,User data saves to firebase , API perform operations like:Fetch nutrition data, exercise data and show in the form of cards. "
           link="https://vocal-horse-bd4d1d.netlify.app/"
         />
         <ProjectCard

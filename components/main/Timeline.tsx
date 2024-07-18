@@ -7,12 +7,20 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "../../constants/Experience";
+import { motion } from "framer-motion";
+import {
+  slideInFromLeft,
+  slideInFromRight,
+  slideInFromTop,
+} from "../../utils/motion";
+
+
 
 const Experience: React.FC = () => {
   return (
-    <div id="experience">
+    <motion.div id="experience" variants={slideInFromLeft(0.5)}>
       <h2 className="md:text-5xl text-2xl md:underline text-white text-center font-bold mb-4">
-        <i>Education <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">and</span> Qualification</i>
+        <i>Education <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">and</span> Certification</i>
       </h2>
       <VerticalTimeline>
         {experiencesData.map((experience, index) => (
@@ -20,10 +28,10 @@ const Experience: React.FC = () => {
             visible={true}
             className="vertical-timeline-element--work"
             contentStyle={{
-              backgroundColor: "#21D4FD",
+             backgroundColor: "#21D4FD",
               backgroundImage: "linear-gradient(19deg, #21D4FD 0%, #B721FF 100%)",
               color: "#fff",
-              opacity: 0.8,
+              opacity: 0.7,
             }}
             contentArrowStyle={{ borderRight: "7px solid #4158D0" }}
             key={index}
@@ -42,7 +50,7 @@ const Experience: React.FC = () => {
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>
-    </div>
+    </motion.div>
   );
 };
 

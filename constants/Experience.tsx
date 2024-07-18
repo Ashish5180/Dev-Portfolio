@@ -14,7 +14,7 @@ const arobase = '/docker.webp';
       date: "2023-27",
     },
     {
-      title: "2 Summer Intenship at Coding raja technology",
+      title: "2 months Summer Intenship at Coding raja technologies",
       location: "Gurgaon",
       description:
         "In my summer vacation i have done summer internship in fullstck developement.I have created a blog website with react js and firebase,firestone",

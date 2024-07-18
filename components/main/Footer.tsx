@@ -7,7 +7,7 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-import { FaYoutube } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -19,33 +19,42 @@ const Footer = () => {
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Community</div>
                     
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    <a href="https://github.com/Ashish5180?tab=repositories" className="flex flex-row items-center my-[15px] cursor-pointer z-50"
+                    target="_blank" rel="noopener noreferrer">
+                        
                         <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
-                    </p>
+                        <span className="text-[15px] ml-[6px]">Github</span> 
+                           
+                    </a>
                     
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
-                    </p>
+                    <a href="https://www.instagram.com/_ashishyadavvv/" className="flex z-50 flex-row items-center my-[15px] cursor-pointer"
+                    target="_blank" rel="noopener noreferrer">
+                       
+                        < RxInstagramLogo/>
+                        <span className="text-[15px] ml-[6px]">Instagram</span>
+                        
+                    </a>
+                    {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                        <RxTwitterLogo />
+                        <a className="text-[15px] ml-[6px]">Twitter</a>    
+                    </p> */}
+                    <a href="https://www.linkedin.com/in/ashish-yadav-00262b29b/" className="flex z-50 flex-row items-center my-[15px] cursor-pointer"
+                    target="_blank" rel="noopener noreferrer">
+                       
+                        <RxLinkedinLogo />
+                        <span className="text-[15px] ml-[6px]">Linkedin</span> 
+                          
+                    </a>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Contact Info</div>
+                    <div className="font-bold text-[16px]">Feel free to contact us </div>
                    
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">theashish.y8750@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">Gmail:theashish.y8750@gmail.com</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   

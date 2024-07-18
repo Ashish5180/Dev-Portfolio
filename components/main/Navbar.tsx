@@ -25,8 +25,8 @@ const Navbar: React.FC = () => {
           />
         </a>
 
-        <div className="hidden md:flex items-center space-x-4">
-          <a href="#about-me" className="cursor-pointer text-xl text-gray-200 hover:text-white">
+        <div className="hidden md:flex items-center space-x-4 italic font-semibold md:gap-6">
+          <a href="#about-me" className="cursor-pointer text-xl  text-gray-200 hover:text-white">
             About me
           </a>
           <a href="#skills" className="cursor-pointer text-xl text-gray-200 hover:text-white">
@@ -65,8 +65,8 @@ const Navbar: React.FC = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden w-full h-[400px] bg-[#030014] px-4 py-4 flex flex-col items-start space-y-4 opacity-75">
-          <a href="#about-me" className="block text-gray-200 py-2 italic font-bold hover:text-white" onClick={handleMenuClick}>
+        <div className="md:hidden w-full h-[400px] bg-[#030014] px-4 py-4 flex flex-col  space-y-4 opacity-80 text-center font-semibold items-center text-3xl ">
+          <a href="#about-me" className="block  text-gray-200 py-2 italic font-bold hover:text-white" onClick={handleMenuClick}>
             About me
           </a>
           <a href="#skills" className="block text-gray-200 py-2 italic font-bold hover:text-white" onClick={handleMenuClick}>
