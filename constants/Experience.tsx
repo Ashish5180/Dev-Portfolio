@@ -14,12 +14,20 @@ const arobase = '/docker.webp';
       date: "2023-27",
     },
     {
-      title: "2 months Summer Intenship at Coding raja technologies",
+      title: "1 months(Virtual) Summer Intenship at Dev Skill Hub",
+      location: "Gurgaon",
+      description:
+        "I'm thrilled to share that I've just completed a one-month front-end development internship at DevSkill Hub. During this time, I honed my skills in React, Tailwind CSS, and JavaScript, working on dynamic and user-friendly web applications.",
+      date: " June-July 2024",
+    },
+    {
+      title: "1 months(Virtual) Summer Intenship at Coding raja technologies",
       location: "Gurgaon",
       description:
         "In my summer vacation i have done summer internship in fullstck developement.I have created a blog website with react js and firebase,firestone",
       date: " July-August 2024",
     },
+    
     {
       title: "Hands on project with Xebia Technologies",
       location: "Gurgaon",
@@ -28,7 +36,7 @@ const arobase = '/docker.webp';
       date: "August 2024",
     },
     {
-      title: "AWS Cloud Practitioner",
+      title: "AWS Cloud Certified",
       location: "Online at internshala.com",
       description:
         "I have done AWS Beginner course at internshala",

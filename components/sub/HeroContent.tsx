@@ -25,7 +25,7 @@ const HeroContent = () => {
           <div className="flex items-center justify-center lg:justify-start">
             <SparklesIcon className="text-[#b49bff] mr-2 h-5 w-5" />
             <h1 className="Welcome-text text-[14px] ">
-              MERN Stack Development Student
+             Full-Stack Development Student
             </h1>
           </div>
         </motion.div>
@@ -51,7 +51,7 @@ const HeroContent = () => {
           <span className="text-2xl lg:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
             Hi, I'm Ashish Yadav ||
           </span>
-          As a dedicated MERN stack development student, I am passionate about creating robust web applications using MongoDB, Express.js, React.js, and Node.js. With a focus on clean, efficient code and innovative solutions, I strive to deliver high-quality, user-friendly digital experiences that meet modern web development standards.
+          As a dedicated Full-Stack development student, I am passionate about creating robust web applications using MongoDB, Express.js, React.js, and Node.js. With a focus on clean, efficient code and innovative solutions, I strive to deliver high-quality, user-friendly digital experiences that meet modern web development standards.
         </motion.p>
 
         <motion.a

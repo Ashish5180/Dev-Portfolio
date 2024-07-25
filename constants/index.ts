@@ -62,6 +62,12 @@ export const Skill_data = [
       width: 40,
       height: 40,
     },
+    {
+      skill_name: "Fire base",
+      Image: "/Firebase.png",
+      width: 55,
+      height: 55,
+    },
   
   ];
   
@@ -164,12 +170,7 @@ export const Skill_data = [
       width: 40,
       height: 40,
     },
-    {
-      skill_name: "Fire base",
-      Image: "/Firebase.png",
-      width: 55,
-      height: 55,
-    },
+    
     {
       skill_name: "Postger SQL",
       Image: "/postger.png",
